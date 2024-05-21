@@ -1,0 +1,102 @@
+/* Atur background dan warna dasar */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f5;
+  color: #333;
+}
+
+/* Container untuk setiap komponen */
+.component {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+/* Judul dan heading */
+h2,
+h3 {
+  color: #444;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+/* Paragraf */
+p {
+  line-height: 1.6;
+}
+
+/* Gaya dropdown */
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+}
+
+/* Gaya list postingan */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-left: 3px solid #007bff;
+}
+
+/* Gaya judul postingan */
+h4 {
+  margin: 0 0 10px 0;
+  color: #007bff;
+}
+
+/* Gaya tombol */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #004494;
+  transform: scale(1);
+}
+
+/* Gaya khusus untuk parent-component */
+.parent-component {
+  background-color: #e3f2fd;
+}
+
+/* Gaya untuk slot-component */
+.slot-component {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px dashed #2196f3;
+  background-color: #e3f2fd;
+}
